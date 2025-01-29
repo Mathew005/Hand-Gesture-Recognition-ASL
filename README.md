@@ -71,7 +71,7 @@ pip install -r requirements.txt
 - You can load and use the saved model by clicking the "Start Recognition" button.
 
 
-##GUI
+## GUI
 
 ![Screenshot 2025-01-29 193950](https://github.com/user-attachments/assets/88747ad5-23c6-41b5-a7c3-ed389732f1e2)
 
