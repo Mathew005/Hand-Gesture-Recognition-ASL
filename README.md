@@ -75,4 +75,7 @@ pip install -r requirements.txt
 
 ![Screenshot 2025-01-29 193950](https://github.com/user-attachments/assets/88747ad5-23c6-41b5-a7c3-ed389732f1e2)
 
+## Note
+The more varied the samples are, the better the results will be.
+
 
