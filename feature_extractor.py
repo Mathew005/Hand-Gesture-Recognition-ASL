@@ -1,6 +1,5 @@
 # feature_extractor.py
 import numpy as np
-import traceback
 
 # Import necessary items directly
 import config

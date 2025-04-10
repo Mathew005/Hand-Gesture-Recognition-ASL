@@ -1,6 +1,6 @@
 # app.py
 import tkinter as tk
-from tkinter import ttk, messagebox
+from tkinter import  messagebox
 import cv2
 import mediapipe as mp
 import numpy as np
