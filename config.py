@@ -11,8 +11,9 @@ except NameError:
     print("Warning: __file__ not defined. Using current working directory as BASE_DIR.")
     BASE_DIR = os.getcwd()
 
-DATA_DIR = os.path.join(BASE_DIR, 'data')
-MODEL_DIR = os.path.join(BASE_DIR, 'models')
+DATA_FOLDER_DIR = ('data')
+DATA_DIR = os.path.join(BASE_DIR, f'{DATA_FOLDER_DIR}/data')
+MODEL_DIR = os.path.join(BASE_DIR, f'{DATA_FOLDER_DIR}/models')
 
 # --- Feature/Model Specific ---
 # Using "sdn" for Scale+Distance Normalized features
@@ -67,4 +68,4 @@ os.environ['TF_CPP_MIN_LOG_LEVEL'] = TF_LOG_LEVEL
 # --- Other ---
 CAMERA_INDEX = 0 # Default camera index
 HIGH_DPI_AWARENESS = True # Set High DPI on Windows if True
-APP_VERSION = "2.7.1" # Application version
+APP_VERSION = "0.1.4" # Application version

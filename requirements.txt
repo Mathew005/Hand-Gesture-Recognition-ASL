@@ -4,3 +4,4 @@ mediapipe==0.10.20
 numpy==1.26.4
 scikit-learn==1.6.1
 tensorflow==2.18.0
+opencv-python==4.11.0.86
